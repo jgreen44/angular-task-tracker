@@ -1,3 +1,4 @@
+<app-add-task (submitTaskForm)="addTask($event)" />
 <app-tasks-item
   *ngFor="let taskElement of tasksArray"
   [task]="taskElement"
